@@ -1,1 +1,6 @@
 # Proiect-SMP
+
+Ionut-Alin Tufisi - GRUPA 332AB
+
+Pentru proiectul la SMP, am ales sa fac o reproducere a jocului "Flappy Bird". Pentru asta am folosit o placuta Arduino UNO, un ecran LCD cu pini, un potentiomentru, un joystick cu rol de pushbutton, un breadbord si nise fire pentru legaturi.
+Musculita a fost inlocuita cu un omulet pentru facilitatea implementarii. In urma unei documentarii, am implementat pozitiile pe care le-ar putea avea omuletul, acestea fiind de alergat, de sarit in sus, de sarit in jos, dar si situatiile care pot aparea - daca avem stalp in fata sau in spate. Am facut functia avansTeren in care verific ce tip de teren este (liber, solid, cu stalp in fata/dreapta, cu stalp in spate/stanga). Cu ajutorul unui switch case verific daca aplicam o anumita actiune. Am creat functia buttonPushed, avand o variabila booleana. In loc de buton, am consruit circuitul cu un joystick. Prin lasarea acestuia in jos, omuletul va sari in sus. In functia setup setez pinii. In functia loop, testez daca joystick-ul este lasat sau nu, iar in functie de asta omuletul sare sau alearga. Daca acesta se loveste de un stalp, jocul se termina si se reincepe prin apasarea elemetului de actionare.
